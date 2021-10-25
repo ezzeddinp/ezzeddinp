@@ -430,7 +430,7 @@ p {
     min-height: 100%;
     flex-direction: column-reverse;
     padding-top: 5em;
-    padding-bottom: 1em;
+    padding-bottom: 4em;
 }
 #footer h2 {
     color: #F4F4F2;
@@ -444,7 +444,7 @@ p {
 }
 #footer .social-icon {
     display: flex;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 #footer .social-item {
     height: 50px;
@@ -457,6 +457,19 @@ p {
 }
 #footer .social-item:hover img {
     filter: grayscale(0)
+}
+#footer p {
+    color: #F4F4F2;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 0.5rem;
+    margin-bottom: 20px;
+}
+#footer .brand h1 {
+    color: #F4F4F2;
 }
 /* End Footer Section */
 
