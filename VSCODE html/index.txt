@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Cheat Sheet</title>
+	</head>
+	<body>
+		<h1><strong>THIS IS BODY</strong></h1>
+		<!-- Headings -->
+		<h1 title="About Us">About Us</h1>
+		<h2>Heading Two</h2>
+		<h3>Heading Three</h3>
+		<h4>Heading Four</h4>
+		<h5>Heading Five</h5>
+		<h6>Heading Six</h6>
+
+		<!-- Paragraph -->
+		<p>
+			<strong>THIS IS PARAGRAPH</strong><br>
+			<strong>Software developers</strong> (also known as software engineers) design, code, test, and develop software, whether that’s an <em>enterprise software</em> solution serving a giant corporation or a consumer-facing mobile app used by individuals.
+		</p>
+		<p>
+			<strong>THIS IS PARAGRAPH</strong><br>			
+			<!-- href = (Hypertext REFerence) mengalihkan anda ke situs lain -->
+			<!-- target = agar user tdk keluar dari situs kita begitu saja -->
+			<!-- br = (line Break Element) membuat baris baru -->
+			<a href="https://google.com" target="_blank">Software developers</a> (also known as software engineers) design, code, test, and develop software, whether that’s an enterprise software solution serving a giant corporation or a consumer-facing mobile app used by individuals.
+		</p>
+
+		<strong>THIS IS TEXT</strong><br>
+
+		<!-- text -->
+		<text>zeddin ganteng<br>BANGET</text>
+
+		<!-- list -->
+		<ol> <!-- Ordered Lists(berupa angka) -->
+			<li>List Items<li>
+		</ol>
+		<!-- or -->
+		<ul><!-- Unordered Lists(berupa dot) digunakan untuk navigator website when u see a nav bar up at the top that's usually ul -->
+			<li>List Items</li>
+		</ul>
+		<table>
+			<thread>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thread>
+			<tbody>
+
+			</tbody>
+		</table>
+
+		<div "style=margin-top:500px"></div>
+		
+
+	</body>
+</html>
