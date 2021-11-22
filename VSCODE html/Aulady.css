@@ -230,19 +230,8 @@ p {
     background-position: right;
     background-position-y: 110px;
     padding: 0 20px;
+    padding-top: 250px;
     justify-content: flex-start;
-}
-#hero .logo1 img {
-    max-width: 55px;
-    max-height: 79px;
-    left: 0;
-    top: 0;
-    padding: 0px;
-    margin: 0px;
-    margin-top: 60px;
-    display: inline-block;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 #hero h1 {
     display: block;
@@ -280,9 +269,6 @@ p {
 #hero h1:nth-child(2) span {
     animation-delay: 2s;
 }
-#hero h1:nth-child(3) span {
-    animation-delay: 3s;
-}
 #hero .cta {
     display: inline-block;
     padding: 10px 30px;
@@ -317,7 +303,6 @@ p {
 #services .service-top p {
     letter-spacing: 0.1rem;
 }
-#services 
 #services .service-bottom {
     display: flex;
     align-items: center;
@@ -503,8 +488,8 @@ p {
 #about .col-left .about-img {
     height: 100%;
     width: 100%;
-    position: relative;
-    border: 10px solid white;
+    position: absolute;
+    border: 8px solid white;
 }
 #about .col-left .about-img::after {
     content: '';
@@ -604,7 +589,6 @@ p {
     font-weight: 300;
     letter-spacing: 0.1rem;
     text-align: center;
-    margin-left: 20px;
     line-height: 1px;
     margin-bottom: 20px;
 }
@@ -647,13 +631,14 @@ p {
 }
 @keyframes text_reveal {
     100% {
-        color: #DDDDDD;
+        color: white;
     }
 }
 @keyframes text_reveal_name {
     100% {
-        color: rgb(58, 150, 211);
+        color: white;
         font-weight: 500;
+        z-index: 0;
     }
 }
 /* End Keyframes */
@@ -670,7 +655,7 @@ p {
 
     /* Hero */
     #hero h1 {
-        font-size: 4rem;
+        font-size: 7rem;
     }
     /* End Hero */
 

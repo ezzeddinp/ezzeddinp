@@ -1,0 +1,27 @@
+/* container1 */
+#container .container-1 {
+    display: flex;
+}
+#container .container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+#container .container-1 div, .container-2 div {
+    border: 1px #1b262c solid;
+    padding: 10px;
+}
+#container .box-1 {
+    flex: 2;
+    order: 2;
+}
+#container .box-2 {
+    flex: 1;
+    order: 1;
+}
+#container .box-3 {
+    flex: 1; 
+    order: 3;
+}
+#container .container-2 {
+    flex-basis: 30%;
+}
