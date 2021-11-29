@@ -89,7 +89,7 @@ p {
 }
 #header .nav-list ul {
     list-style: none;
-    position: absolute;
+    position: fixed;
     background-color: #1B262C;
 	width: 100vw;
 	height: 100vh;
@@ -97,18 +97,19 @@ p {
 	top: 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    justify-content: center;
+    align-items: left;
+    padding-left: 25px;
 	z-index: 1;
 	overflow-x: hidden;
 	transition: 0.5s ease left;
 }
 #header .nav-list ul.active {
-	left: 0;
+	left: 50%;
 }
 #header .nav-list ul a {
 	font-size: 2.5rem;
-	font-weight: 500;
+	font-weight: 100;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
 	color: white;
@@ -120,10 +121,10 @@ p {
 	content: attr(data-after);
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 24%;
 	transform: translate(-50%, -50%) scale(0);
 	color: rgba(240, 248, 255, 0.021);
-	font-size: 13rem;
+	font-size: 6rem;
 	letter-spacing: 50px;
 	z-index: -1;
     transition: 0.3s ease letter-spacing;
@@ -161,7 +162,7 @@ p {
 }
 #header .hamburger .bar {
 	height: 1.5px;
-	width: 30px;
+	width: 20px;
 	position: relative;
 	background-color: white;
 	z-index: -1;
@@ -178,10 +179,10 @@ p {
 	transition-property: top, bottom;
 }
 #header .hamburger .bar::after {
-	top: 8px;
+	top: 7px;
 }
 #header .hamburger .bar::before {
-	bottom: 8px;
+	bottom: 7px;
 }
 #header .hamburger.active .bar::before {
 	bottom: 0;
@@ -718,6 +719,19 @@ p {
     }
 }
 
+/* Media Query For Phone */
+@media only screen and (min-width: 375px) {
+    #header .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        max-width: 1300px;
+        padding: 0 10px;
+    }
+}
+
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
     /* header */
@@ -732,7 +746,7 @@ p {
         background-color: transparent;
     }
     #header .nav-list ul li {
-        display: inline-block;    
+        display: inline-block;  
     }
     #header .nav-list ul li a {
         font-size: 1.8rem;
