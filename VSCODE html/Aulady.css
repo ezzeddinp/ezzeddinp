@@ -720,7 +720,7 @@ p {
 }
 
 /* Media Query For Phone */
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
     #header .nav-bar{
         display: flex;
         align-items: center;
@@ -729,6 +729,20 @@ p {
         height: 100%;
         max-width: 1300px;
         padding: 0 10px;
+    }
+    #hero .hero {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-image: url(./logo\ osis.png);
+        background-size: 75px;
+        width: 85%!important;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-y: 105px;
+        padding: 0 20px;
+        padding-top: 250px;
+        justify-content: flex-start;
     }
 }
 
