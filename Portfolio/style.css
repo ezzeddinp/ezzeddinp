@@ -1,0 +1,62 @@
+:root {
+    --background-color: #1b262c;
+    --blue-color: #bbe1fa;
+    --secondary-color: #f4f4f2;
+    --bg-color-of-list-section: #2b3c46;
+}
+* {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--background-color) !important;
+}
+h1,h2,h3,h4,h5,h6,p,span,td,a {
+    cursor: pointer;
+}
+span {
+    color: var(--blue-color);
+}
+
+/* navigation bar */
+.nav-section .navbar-brand {
+    font-size: 22px;
+}
+.nav-section .navbar-bar li {
+    margin: 0px 8px;
+}
+.nav-section .navbar-nav li a {
+    color: aliceblue !important;
+    font-size: 15px;
+}
+.nav-section .navbar-nav .nav-link::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 7px;
+    transition: 0.5s;
+}
+.nav-section .navbar-nav .nav-link:hover::before {
+    content: "";
+    width: 2px;
+    height: 17px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 7px;
+}
+
+/* hero section */
+.hero_section .row {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.hero_section .row h1,h2,h3,h4,p {
+    color: aliceblue;
+}
+.hero-section .row h3 {
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
