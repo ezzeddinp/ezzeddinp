@@ -1,10 +1,6 @@
 ### Hi there 👋
 Currently learning: ( ͡• ͜ʖ ͡• )
-<h3 align="center">Passionate Fullstack Developer</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ezzeddinp&label=Profile%20views&color=0e75b6&style=flat" alt="ezzeddinp" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ezzeddinp" alt="ezzeddinp" /></a> </p>
+<h3 align="center">Passionate Fullstack Developer and Machine Learning</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
