@@ -1,4 +1,3 @@
-### Hi there 👋 ( ͡• ͜ʖ ͡• )
 <h3 align="center">A passionate Fullstack Developer and Machine Learning</h3>
 
 <h3 align="left">Connect with me:</h3>
