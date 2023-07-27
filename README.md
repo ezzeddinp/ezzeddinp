@@ -1,6 +1,6 @@
 ### Hi there 👋
 Currently learning: ( ͡• ͜ʖ ͡• )
-[![My Skills](https://skills.thijs.gg/icons?i=nextjs,kotlin,nodejs,figma&theme=light)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=js,nextjs,prisma,mysql)](https://skills.thijs.gg)
 <!--
 **ezzeddinp/ezzeddinp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
