@@ -1,5 +1,5 @@
 <h1 align="center">About Me</h1>
-An Information System Student, currently learning in Web2 and 3, Application
+An Information System Student, currently learning in Web2, AGI
 
 <h1 align="center">💻 Tech Stack:</h1>
 
